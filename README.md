@@ -26,5 +26,28 @@ AdBlocker by Shree is a lightweight, highly efficient browser extension that blo
 
 5. The extension should now be visible in the extensions bar. Click on the icon to see the popup and control its settings.
 
-## Structure
+
+## How It Works
+
+### Blocking Ads
+
+The extension blocks ads by listening to network requests using the `chrome.webRequest` or `browser.webRequest` API and intercepting any requests that match known ad URLs or patterns in the filter lists.
+
+### Filter Lists
+
+By default, AdBlocker Ultimate includes a small set of built-in ad filters for common ad-serving domains (e.g., `doubleclick.net`, `adservice.google.com`). You can also load external filter lists dynamically (like EasyList) to extend the ad-blocking capabilities.
+
+
+### Explanation:
+
+- **Features**: Highlights the key features of the extension.
+- **Installation**: Step-by-step guide on how to install the extension in Chrome or Firefox.
+- **Structure**: Provides an overview of the folder and file structure.
+- **How It Works**: Explains the ad-blocking mechanism and how external filter lists are integrated.
+- **Usage**: Shows how to enable/disable the ad blocker and how to add custom filters.
+- **License**: Mentions the licensing of the project (you can adjust this section based on the actual license).
+
+This should help users get the extension up and running easily and understand how it works.
+
+
 

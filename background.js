@@ -12,7 +12,6 @@ chrome.webRequest.onBeforeRequest.addListener(
   ["blocking"]  // Block the request
 );
 
-
 // Sample filter list, you can expand this with more ad-serving domains or tracking URLs
 const adFilters = [
   "*://*.doubleclick.net/*",

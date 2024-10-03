@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "AdBlocker by Shree",
+  "version": "1.0",
+  "description": "Blocks ads on websites. Made by Shrinivas Kathare",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "declarativeNetRequest",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "icons": {
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.png"
+  }
+}

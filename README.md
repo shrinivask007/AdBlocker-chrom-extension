@@ -2,6 +2,8 @@
 
 AdBlocker by Shree is a lightweight, highly efficient browser extension that blocks advertisements and tracking scripts on websites. It dynamically loads and applies ad-blocking rules, and supports integration with filter lists like EasyList.
 
+![Extension Popup](screenshot.png)
+
 ## Features
 
 - Block ads and tracking scripts on websites.
